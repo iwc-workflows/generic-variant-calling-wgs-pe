@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2022-06-03T10:07:46.335781",
+            "datePublished": "2023-11-23T13:33:08.016796",
             "hasPart": [
                 {
                     "@id": "Generic-variation-analysis-on-WGS-PE-data.ga"
@@ -40,7 +40,7 @@
             },
             "mentions": [
                 {
-                    "@id": "#test1"
+                    "@id": "#test_main_1"
                 }
             ],
             "name": "generic-variant-calling-wgs-pe/main"
@@ -72,7 +72,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/generic-variant-calling-wgs-pe",
-            "version": "0.1"
+            "version": "0.1.1"
         },
         {
             "@id": "#galaxy",
@@ -96,25 +96,25 @@
             "@type": "File"
         },
         {
-            "@id": "#test1",
+            "@id": "#test_main_1",
             "@type": "TestSuite",
             "definition": {
                 "@id": "Generic-variation-analysis-on-WGS-PE-data-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test1_1"
+                    "@id": "#test_main_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "Generic-variation-analysis-on-WGS-PE-data.ga"
             },
-            "name": "test1"
+            "name": "test_main_1"
         },
         {
-            "@id": "#test1_1",
+            "@id": "#test_main_1_1",
             "@type": "TestInstance",
-            "name": "test1_1",
+            "name": "test_main_1_1",
             "resource": "repos/iwc-workflows/generic-variant-calling-wgs-pe/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -138,7 +138,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.74.10"
+            "engineVersion": ">=0.75.18"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
